@@ -16,8 +16,8 @@
 		Email Address: $email \n
 		Message: $message";
 		
-		$recipient = "yourmail@gamil.com";
-		$subject = "Add Your Subject Here";
+		$recipient = "seankish1@gamil.com";
+		$subject = "Portfolio Contact";
 		$mailheader = "From: $email \r\n";
 		mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 		
